@@ -32,6 +32,7 @@ const ImgGenerator = () => {
     setIsLoading(false);
     console.log(data);
   };
+  
   return (
     <>
       <div className="AI_imgGenerator">
