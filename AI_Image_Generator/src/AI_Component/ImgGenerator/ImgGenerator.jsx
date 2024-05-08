@@ -6,7 +6,7 @@ const ImgGenerator = () => {
   const [imgUrl, setImgUrl] = useState("/");
   const [isLoading, setIsLoading] = useState(false);
   let inputRef = useRef(null);
-  let URL = "https://api.openai.com/v1/images/generations ";
+  let URL = "https://api.openai.com/v1/images/generations";
 
   const imgGenerator = async () => {
     if (inputRef.current.value === "") {
@@ -18,7 +18,7 @@ const ImgGenerator = () => {
       headers: {
         "Content-Type": "application/json",
         Authorization:
-          "Bearer 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",
+          "Bearer sk-proj-eWKRUAtUWcDmm18qIDCkT3BlbkFJwxtspuK3klFBfQbz26ot",
         "User-Agent": "Chrome",
       },
       body: JSON.stringify({
